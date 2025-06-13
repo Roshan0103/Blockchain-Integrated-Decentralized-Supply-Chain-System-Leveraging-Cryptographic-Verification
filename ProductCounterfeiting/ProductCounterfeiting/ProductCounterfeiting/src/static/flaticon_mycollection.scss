@@ -1,0 +1,189 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.woff2?04d2e256a259d559f1e5ef439bde49b0") format("woff2"),
+url("./flaticon_mycollection.woff?04d2e256a259d559f1e5ef439bde49b0") format("woff"),
+url("./flaticon_mycollection.eot?04d2e256a259d559f1e5ef439bde49b0#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.ttf?04d2e256a259d559f1e5ef439bde49b0") format("truetype"),
+url("./flaticon_mycollection.svg?04d2e256a259d559f1e5ef439bde49b0#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "product": "\f101",
+    "order": "\f102",
+    "cubes": "\f103",
+    "supply-chain": "\f104",
+    "supply-chain-1": "\f105",
+    "digital": "\f106",
+    "manufacturing": "\f107",
+    "manufacture": "\f108",
+    "machine": "\f109",
+    "manufacturing-1": "\f10a",
+    "worker": "\f10b",
+    "conveyor": "\f10c",
+    "industry": "\f10d",
+    "shipping": "\f10e",
+    "transportation": "\f10f",
+    "freight": "\f110",
+    "truck": "\f111",
+    "shipped": "\f112",
+    "ribbon": "\f113",
+    "fast-delivery": "\f114",
+    "delivery-truck": "\f115",
+    "tipper": "\f116",
+    "load": "\f117",
+    "transportation-1": "\f118",
+    "van": "\f119",
+    "counterfeit": "\f11a",
+    "duplicate": "\f11b",
+    "counterfeit-1": "\f11c",
+    "error": "\f11d",
+    "counterfeiting": "\f11e",
+    "multiple-users-silhouette": "\f11f",
+    "information": "\f120",
+    "user": "\f121",
+    "management": "\f122",
+    "gear-assembly": "\f123",
+    "workforce": "\f124",
+    "employee": "\f125",
+    "power": "\f126",
+    "logout": "\f127",
+    "exit": "\f128",
+    "logout-1": "\f129",
+);
+
+.flaticon-product:before {
+    content: map-get($flaticon_mycollection-map, "product");
+}
+.flaticon-order:before {
+    content: map-get($flaticon_mycollection-map, "order");
+}
+.flaticon-cubes:before {
+    content: map-get($flaticon_mycollection-map, "cubes");
+}
+.flaticon-supply-chain:before {
+    content: map-get($flaticon_mycollection-map, "supply-chain");
+}
+.flaticon-supply-chain-1:before {
+    content: map-get($flaticon_mycollection-map, "supply-chain-1");
+}
+.flaticon-digital:before {
+    content: map-get($flaticon_mycollection-map, "digital");
+}
+.flaticon-manufacturing:before {
+    content: map-get($flaticon_mycollection-map, "manufacturing");
+}
+.flaticon-manufacture:before {
+    content: map-get($flaticon_mycollection-map, "manufacture");
+}
+.flaticon-machine:before {
+    content: map-get($flaticon_mycollection-map, "machine");
+}
+.flaticon-manufacturing-1:before {
+    content: map-get($flaticon_mycollection-map, "manufacturing-1");
+}
+.flaticon-worker:before {
+    content: map-get($flaticon_mycollection-map, "worker");
+}
+.flaticon-conveyor:before {
+    content: map-get($flaticon_mycollection-map, "conveyor");
+}
+.flaticon-industry:before {
+    content: map-get($flaticon_mycollection-map, "industry");
+}
+.flaticon-shipping:before {
+    content: map-get($flaticon_mycollection-map, "shipping");
+}
+.flaticon-transportation:before {
+    content: map-get($flaticon_mycollection-map, "transportation");
+}
+.flaticon-freight:before {
+    content: map-get($flaticon_mycollection-map, "freight");
+}
+.flaticon-truck:before {
+    content: map-get($flaticon_mycollection-map, "truck");
+}
+.flaticon-shipped:before {
+    content: map-get($flaticon_mycollection-map, "shipped");
+}
+.flaticon-ribbon:before {
+    content: map-get($flaticon_mycollection-map, "ribbon");
+}
+.flaticon-fast-delivery:before {
+    content: map-get($flaticon_mycollection-map, "fast-delivery");
+}
+.flaticon-delivery-truck:before {
+    content: map-get($flaticon_mycollection-map, "delivery-truck");
+}
+.flaticon-tipper:before {
+    content: map-get($flaticon_mycollection-map, "tipper");
+}
+.flaticon-load:before {
+    content: map-get($flaticon_mycollection-map, "load");
+}
+.flaticon-transportation-1:before {
+    content: map-get($flaticon_mycollection-map, "transportation-1");
+}
+.flaticon-van:before {
+    content: map-get($flaticon_mycollection-map, "van");
+}
+.flaticon-counterfeit:before {
+    content: map-get($flaticon_mycollection-map, "counterfeit");
+}
+.flaticon-duplicate:before {
+    content: map-get($flaticon_mycollection-map, "duplicate");
+}
+.flaticon-counterfeit-1:before {
+    content: map-get($flaticon_mycollection-map, "counterfeit-1");
+}
+.flaticon-error:before {
+    content: map-get($flaticon_mycollection-map, "error");
+}
+.flaticon-counterfeiting:before {
+    content: map-get($flaticon_mycollection-map, "counterfeiting");
+}
+.flaticon-multiple-users-silhouette:before {
+    content: map-get($flaticon_mycollection-map, "multiple-users-silhouette");
+}
+.flaticon-information:before {
+    content: map-get($flaticon_mycollection-map, "information");
+}
+.flaticon-user:before {
+    content: map-get($flaticon_mycollection-map, "user");
+}
+.flaticon-management:before {
+    content: map-get($flaticon_mycollection-map, "management");
+}
+.flaticon-gear-assembly:before {
+    content: map-get($flaticon_mycollection-map, "gear-assembly");
+}
+.flaticon-workforce:before {
+    content: map-get($flaticon_mycollection-map, "workforce");
+}
+.flaticon-employee:before {
+    content: map-get($flaticon_mycollection-map, "employee");
+}
+.flaticon-power:before {
+    content: map-get($flaticon_mycollection-map, "power");
+}
+.flaticon-logout:before {
+    content: map-get($flaticon_mycollection-map, "logout");
+}
+.flaticon-exit:before {
+    content: map-get($flaticon_mycollection-map, "exit");
+}
+.flaticon-logout-1:before {
+    content: map-get($flaticon_mycollection-map, "logout-1");
+}

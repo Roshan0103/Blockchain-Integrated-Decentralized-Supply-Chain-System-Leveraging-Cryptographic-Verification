@@ -1,0 +1,44 @@
+
+    
+{% extends "Home.html" %}
+
+{% block content %}
+    <h2 class="pagehead">:: Vehicle Listing ::</h2>
+    
+ <table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Vehicle Number</th>
+
+      <th scope="col">Action</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+        {% if records | length == 0 %}
+            <tr>
+                <td colspan="2">
+                    <div class="alert alert-info" style="display:block" >
+                        <div class="text-center"> <b>No&nbsp;</b><span>Vehicle Found</span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        {% endif %}
+    {% for row in records %}
+        <tr>
+            <td>{{ row.vehicleNbr }}</td>
+
+        <td>
+            <a href="/VehicleOperation?operation=Edit&unique_id={{ row.vehicleID }}" class="btn btn-warning btn-sm ">Edit</a>
+            <a href="/VehicleOperation?operation=Delete&unique_id={{ row.vehicleID }}" class="btn btn-warning btn-sm ">Delete</a>
+        </td>
+        </tr>
+    {% endfor %}
+   </tbody>
+</table>
+<div class="text-center m-2"><a href="/VehicleOperation?operation=Create" class="btn btn-primary btn-sm ">Create</a></div>
+{% endblock %}
+    
+    
+    

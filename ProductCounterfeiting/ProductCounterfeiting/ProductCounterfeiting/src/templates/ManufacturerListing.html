@@ -1,0 +1,46 @@
+
+    
+{% extends "Home.html" %}
+
+{% block content %}
+    <h2 class="pagehead">:: Manufacturer Listing ::</h2>
+    
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Manufacturer Name</th>
+<th scope="col">GST Number</th>
+
+      <th scope="col">Action</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+        {% if records | length == 0 %}
+            <tr>
+                <td colspan="3">
+                    <div class="alert alert-info" style="display:block" >
+                        <div class="text-center"> <b>No&nbsp;</b><span>Manufacturer Found</span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        {% endif %}
+    {% for row in records %}
+        <tr>
+            <td>{{ row.manufacturerName }}</td>
+<td>{{ row.gstNumber }}</td>
+
+        <td>
+            <a href="/ManufacturerOperation?operation=Edit&unique_id={{ row.manufacturerID }}" class="btn btn-warning btn-sm ">Edit</a>
+            <a href="/ManufacturerOperation?operation=Delete&unique_id={{ row.manufacturerID }}" class="btn btn-warning btn-sm ">Delete</a>
+        </td>
+        </tr>
+    {% endfor %}
+   </tbody>
+</table>
+<div class="text-center m-2"><a href="/ManufacturerOperation?operation=Create" class="btn btn-primary btn-sm ">Create</a></div>
+{% endblock %}
+    
+    
+    

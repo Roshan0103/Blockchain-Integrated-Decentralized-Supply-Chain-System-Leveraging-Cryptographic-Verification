@@ -1,0 +1,155 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_mycollection";
+    src: url("./flaticon_mycollection.woff2?04d2e256a259d559f1e5ef439bde49b0") format("woff2"),
+url("./flaticon_mycollection.woff?04d2e256a259d559f1e5ef439bde49b0") format("woff"),
+url("./flaticon_mycollection.eot?04d2e256a259d559f1e5ef439bde49b0#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.ttf?04d2e256a259d559f1e5ef439bde49b0") format("truetype"),
+url("./flaticon_mycollection.svg?04d2e256a259d559f1e5ef439bde49b0#flaticon_mycollection") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-product:before {
+    content: "\f101";
+}
+.flaticon-order:before {
+    content: "\f102";
+}
+.flaticon-cubes:before {
+    content: "\f103";
+}
+.flaticon-supply-chain:before {
+    content: "\f104";
+}
+.flaticon-supply-chain-1:before {
+    content: "\f105";
+}
+.flaticon-digital:before {
+    content: "\f106";
+}
+.flaticon-manufacturing:before {
+    content: "\f107";
+}
+.flaticon-manufacture:before {
+    content: "\f108";
+}
+.flaticon-machine:before {
+    content: "\f109";
+}
+.flaticon-manufacturing-1:before {
+    content: "\f10a";
+}
+.flaticon-worker:before {
+    content: "\f10b";
+}
+.flaticon-conveyor:before {
+    content: "\f10c";
+}
+.flaticon-industry:before {
+    content: "\f10d";
+}
+.flaticon-shipping:before {
+    content: "\f10e";
+}
+.flaticon-transportation:before {
+    content: "\f10f";
+}
+.flaticon-freight:before {
+    content: "\f110";
+}
+.flaticon-truck:before {
+    content: "\f111";
+}
+.flaticon-shipped:before {
+    content: "\f112";
+}
+.flaticon-ribbon:before {
+    content: "\f113";
+}
+.flaticon-fast-delivery:before {
+    content: "\f114";
+}
+.flaticon-delivery-truck:before {
+    content: "\f115";
+}
+.flaticon-tipper:before {
+    content: "\f116";
+}
+.flaticon-load:before {
+    content: "\f117";
+}
+.flaticon-transportation-1:before {
+    content: "\f118";
+}
+.flaticon-van:before {
+    content: "\f119";
+}
+.flaticon-counterfeit:before {
+    content: "\f11a";
+}
+.flaticon-duplicate:before {
+    content: "\f11b";
+}
+.flaticon-counterfeit-1:before {
+    content: "\f11c";
+}
+.flaticon-error:before {
+    content: "\f11d";
+}
+.flaticon-counterfeiting:before {
+    content: "\f11e";
+}
+.flaticon-multiple-users-silhouette:before {
+    content: "\f11f";
+}
+.flaticon-information:before {
+    content: "\f120";
+}
+.flaticon-user:before {
+    content: "\f121";
+}
+.flaticon-management:before {
+    content: "\f122";
+}
+.flaticon-gear-assembly:before {
+    content: "\f123";
+}
+.flaticon-workforce:before {
+    content: "\f124";
+}
+.flaticon-employee:before {
+    content: "\f125";
+}
+.flaticon-power:before {
+    content: "\f126";
+}
+.flaticon-logout:before {
+    content: "\f127";
+}
+.flaticon-exit:before {
+    content: "\f128";
+}
+.flaticon-logout-1:before {
+    content: "\f129";
+}
+

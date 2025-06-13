@@ -1,0 +1,93 @@
+
+            {% extends "Home.html" %}
+
+            {% block content %}
+                <div id="div1">
+                    <h2 class="pagehead">:: Dashboard ::</h2>
+                            
+                </div>
+                <div class="row pl-2">
+                    <div class="col-4 pl-3">
+						<div>
+							<div class="row wbox wbox1">
+								<div class="col-6 icn">
+									<i class="flaticon-industry"></i>
+								</div>
+								<div class="col-6">
+									<div class="t1">Total Products</div>
+									<div class="t2">{{product_count}}</div>
+								</div>
+							</div>
+						</div>
+                        <div class="mt-5">
+							<div class="row wbox wbox2">
+								<div class="col-6 icn">
+									<i class="flaticon-manufacturing"></i>
+								</div>
+								<div class="col-6">
+									<div class="t1">Total Manufactures</div>
+									<div class="t2">{{manufacture_count}}</div>
+								</div>
+							</div>
+						</div>
+						<div class="mt-5">
+							<div class="row wbox wbox3">
+								<div class="col-6 icn">
+									<i class="flaticon-delivery-truck"></i>
+								</div>
+								<div class="col-6">
+									<div class="t1">Total Vehicles</div>
+									<div class="t2">{{vehicle_count}}</div>
+								</div>
+							</div>
+						</div>
+						<div class="mt-5">
+							<div class="row wbox wbox4">
+								<div class="col-6 icn">
+									<i class="flaticon-error"></i>
+								</div>
+								<div class="col-6">
+									<div class="t1">Total Product Tracking</div>
+									<div class="t2">{{tracking_count}}</div>
+								</div>
+							</div>
+						</div>
+
+
+                    </div>
+                    <div class="col-8 pl5rem">
+                        <h3 class="text-center tdash-head my-3">Last 10 Product Tracking Transaction</h3>
+					    <div class="tdash">
+							<table class="table table-bordered table-striped">
+							  <thead>
+								<tr>
+								  	<th scope="col" class="text-center">Product Name</th>
+									<th scope="col" class="text-center">Lot Number</th>
+								  	<th scope="col" class="text-center">Status</th>
+								</tr>
+							  </thead>
+							  <tbody>
+        							{% if top_10_records | length == 0 %}
+										<tr>
+											<td colspan="3">
+												<div class="alert alert-info" style="display:block" >
+													<div class="text-center"> <b>No&nbsp;</b><span>Tracking Found</span>
+													</div>
+												</div>
+											</td>
+										</tr>
+        							{% endif %}
+									{% for row in top_10_records %}
+										<tr>
+											<td>{{row.productModel.productName}}</td>
+											<td>{{row.lotNumber}}</td>
+											<td class="text-center"><div class="{{'badge-light-primary' if isBlockChainGenerated else 'badge-light-secondary'}} "><span>In Blockchain</span></div></td>
+										</tr>
+									{% endfor %}
+								   </tbody>
+								</table>
+
+					</div>
+                </div>
+            {% endblock %}
+                    

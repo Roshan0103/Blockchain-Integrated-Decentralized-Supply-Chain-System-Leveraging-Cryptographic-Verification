@@ -1,0 +1,127 @@
+{
+  "contractName": "VehicleContract",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "perform_transactions",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"perform_transactions\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/VehicleContract.sol\":\"VehicleContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/VehicleContract.sol\":{\"keccak256\":\"0x9a70ce75f6a19ab73c968924709a5d79ecc86987cf14bf6e707588fe779bee5a\",\"urls\":[\"bzz-raw://dafa37a7bbb023249e3a5660700a74c597a4a1d104dc768ae8e27ec5587cb198\",\"dweb:/ipfs/QmaDW4hkoHLm2HhPco9TZTweymdwstvz7f6aPUASoYMfFN\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606d80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063ff0c51ba14602d575b600080fd5b60336035565b005b56fea2646970667358221220a15169d742c2dad761ee6553cab9ebeaa4a67f5fbc8618511478af89be1580cf64736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063ff0c51ba14602d575b600080fd5b60336035565b005b56fea2646970667358221220a15169d742c2dad761ee6553cab9ebeaa4a67f5fbc8618511478af89be1580cf64736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "38:112:9:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "38:112:9:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;82:55;;;:::i;:::-;;;:::o",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\r\n    contract VehicleContract {\r\n    \r\n    \r\n    function perform_transactions() public{\r\n       \r\n    }\r\n        \r\n}\r\n",
+  "sourcePath": "D:\\MAJORCODE\\ProductCounterfeiting\\ProductCounterfeiting-Truffle\\contracts\\VehicleContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/VehicleContract.sol",
+    "exportedSymbols": {
+      "VehicleContract": [
+        175
+      ]
+    },
+    "id": 176,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 170,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:9"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "VehicleContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 175,
+        "linearizedBaseContracts": [
+          175
+        ],
+        "name": "VehicleContract",
+        "nameLocation": "47:15:9",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 173,
+              "nodeType": "Block",
+              "src": "120:17:9",
+              "statements": []
+            },
+            "functionSelector": "ff0c51ba",
+            "id": 174,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "perform_transactions",
+            "nameLocation": "91:20:9",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 171,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "111:2:9"
+            },
+            "returnParameters": {
+              "id": 172,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "120:0:9"
+            },
+            "scope": 175,
+            "src": "82:55:9",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 176,
+        "src": "38:112:9",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:152:9"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xc9937FbC8358E3C790ECB02EC2aC980134243ab9",
+      "transactionHash": "0x0dd2e722b666fa48e750f5e4ef1198c0c426189e82d98cae0fc6c944809cf268"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2025-05-12T08:43:01.630Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
